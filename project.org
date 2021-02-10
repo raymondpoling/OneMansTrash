@@ -1,0 +1,79 @@
+* Activities
+** DONE Splash Screen
+   CLOSED: [2021-02-06 Sat 14:05]
+   A place to check permissions, starting up the application, and checking login
+** DONE [#A] Login Window
+   CLOSED: [2021-02-07 Sun 16:21]
+** DONE Signup
+   CLOSED: [2021-02-07 Sun 22:12]
+** TODO Main Interface
+*** TODO [#C] List Items
+    - [X] List all items
+    - [ ] Filter your items
+      EITHER when we get offers, click a button to filter only on ones where user is seller
+      OR do a search only for your offers.
+      FORMER is more sensible in this case.
+    - [ ] outline your current bid items
+      easy enough to do
+    - [ ] Search?
+      Maybe, maybe not
+    - CANCELLED Tags?
+      this is just too out of scope.
+*** TODO [#A] View Item
+    Not part of the bottom nav bar. If we have time, do next item
+    - [ ] (Low Priority) Animate close in view as a zoom pop up
+    - [ ] Bid on item
+    - CANCELLED Cancel bid (pop back to previous person and offer)
+    - [ ] Flag items you are interested in
+*** TODO [#A] Create Offer
+    If we have to have a bottom nav bar, this will be part of it
+    - [X] Name/Title
+    - [X] Description
+    - [ ] Image
+    - [ ] Delivery option?
+    - [X] Expiration date/time
+*** TODO [#B] List Recently Won Items
+    Actually, lets make this part of the bottom nav bar
+    - [ ] Provide windows (groupings)
+    - [ ] Include items to be won
+* [#B] Message Service for Push Messages
+** TODO Create Service
+** TODO Learn how to create push messages
+** TODO Ensure we have can push the required messages
+** TODO Bring us to the item to vote on if appropriate
+** TODO Ensure 'screw messages'
+   If you bid on an item that's about to close, send a message to get encourage
+   last minute bidding
+* [#C] Offline support
+** TODO Reminder to check on closing items when offline
+** TODO Can we countdown to close?
+* [#A] Database Work
+** DONE Create database model based on requirements
+   CLOSED: [2021-02-08 Mon 11:00]
+   Remember, the db should be able to push and pop values, and ensure that
+   conflicting updates cannot happen
+   - /user <- user data (no actual object as far as we are concerned)
+   - /user/watches <- items being watched
+   - /user/offers <- list of offer ids
+   - /user/bids <- items being bid on
+   - /offers <- list of offers, using internally generated ids
+   - offer format: reference product +
+     bidid : ordered ids list. Reject (hopefully) if you are winning
+** TODO [#A] Implement and Manage Files
+   - [ ] For Images:
+     * [ ] Take/provide picture
+     * [ ] upload
+     * [ ] ensure image is tagged to item
+   - [ ] Provide an archive tag so items out of date are no longer available,
+     but exist for future reference (operations can select purging requirements,
+     etc)
+* [#C] Add Normal, Real Testing
+** DONE Learn about espresso testing
+   CLOSED: [2021-02-07 Sun 10:05]
+   This is a test recorder for running tests on an emulated device.
+   Part of instrumentation testing.
+** DONE Learn about robo whatsit testing
+   CLOSED: [2021-02-07 Sun 10:05]
+   This is a means of junit testing ui componenets without mocking or
+   using an emulator.
+** TODO Implementation of testing

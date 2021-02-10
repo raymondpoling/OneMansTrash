@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/list_all_items"
+        android:title="All Offers"
+        android:icon="@drawable/ic_listing"
+        />
+    <item android:id="@+id/watch_items"
+        android:title="Watching"
+        android:icon="@drawable/ic_shopping_cart"
+        />
+    <item android:id="@+id/selling_items"
+        android:title="Selling"
+        android:icon="@drawable/ic_sell"
+        />
+</menu>

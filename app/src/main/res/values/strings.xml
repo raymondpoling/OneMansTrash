@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OneMansTrash</string>
+    <string name="unwatch">Unwatch</string>
+    <string name="watch">Watch</string>
+</resources>

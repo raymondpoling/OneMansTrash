@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "72308404416",
+    "project_id": "one-man-s-trash",
+    "storage_bucket": "one-man-s-trash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72308404416:android:8d8c57ec2cbab18a313d25",
+        "android_client_info": {
+          "package_name": "org.mousehole.americanairline.onemanstrash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72308404416-8o6ckteihcu3bi83lkbfdv4v0ni1p0ek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.mousehole.americanairline.onemanstrash",
+            "certificate_hash": "79bad776ea06b98d9d257deb4c8ff76233ac9dcf"
+          }
+        },
+        {
+          "client_id": "72308404416-1g2mb453p2gqct7c49jpo3m61craglsa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4nbcMfZj79p53o_J9DOy4a9G5HdBfdAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72308404416-1g2mb453p2gqct7c49jpo3m61craglsa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
